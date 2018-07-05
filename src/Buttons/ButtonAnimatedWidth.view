@@ -1,0 +1,15 @@
+ButtonAnimatedWidth Horizontal
+onClick <
+flexGrow 1
+flexBasis 1
+flexShrink auto
+backgroundColor red
+width 100
+alignItems center
+justifyContent center
+when <isClicked
+alignItems flex-end
+justifyContent flex-start
+flexGrow 3 spring
+Label Text
+text Hi

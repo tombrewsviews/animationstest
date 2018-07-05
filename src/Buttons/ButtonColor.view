@@ -1,0 +1,28 @@
+ButtonColor Horizontal
+onClick <
+alignItems center
+justifyContent center
+paddingBottom 10
+paddingLeft 20
+paddingRight 20
+paddingTop 10
+borderTopLeftRadius 5
+borderTopRightRadius 5
+borderBottomLeftRadius 5
+borderBottomRightRadius 5
+backgroundColor #ffaa00
+when <isClicked
+#scale 1.5 spring bounciness 20
+backgroundColor #00c276 spring bounciness 30 speed 20
+paddingLeft 100 ease-in
+paddingRight 100 ease-in
+Text
+color #ffffff
+fontFamily Montserrat
+fontSize 38
+fontWeight 400
+text 🤔
+when <isClicked
+text 🤑
+fontSize 68 linear
+fontFamily Lobster linear

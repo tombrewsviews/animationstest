@@ -1,0 +1,50 @@
+Vertical
+alignItems center
+ButtonEaseInOut Vertical
+borderTopLeftRadius 15
+borderTopRightRadius 15
+borderBottomLeftRadius 15
+borderBottomRightRadius 15
+onClick <
+backgroundColor #ff8300
+width 80
+height 80
+translateX -200
+when <isClicked
+translateX 200 easeOut duration 400
+
+ButtonEaseInOut Vertical
+marginTop 5
+borderTopLeftRadius 15
+borderTopRightRadius 15
+borderBottomLeftRadius 15
+borderBottomRightRadius 15
+onClick <
+backgroundColor #ff8300
+width 80
+height 80
+translateX -200
+when <isClicked
+translateX 200 easeIn duration 400
+
+ButtonEaseInOut Vertical
+marginTop 5
+borderTopLeftRadius 15
+borderTopRightRadius 15
+borderBottomLeftRadius 15
+borderBottomRightRadius 15
+onClick <
+backgroundColor #ff8300
+width 80
+height 80
+translateX -200
+when <isClicked
+translateX 200 linear duration 400
+
+
+Text
+marginTop 50
+fontSize 20
+fontFamily Montserrat
+fontWeight 400
+text translateX 150 easeInOut

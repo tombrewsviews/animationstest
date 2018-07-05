@@ -1,0 +1,7 @@
+App Horizontal
+alignItems center
+justifyContent center
+flexGrow 1
+flexShrink 1
+flexBasis auto
+ButtonEaseInOut

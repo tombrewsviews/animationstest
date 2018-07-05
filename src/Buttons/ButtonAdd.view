@@ -1,0 +1,33 @@
+ButtonAdd Horizontal
+onClick <
+alignItems center
+justifyContent center
+paddingBottom 10
+paddingLeft 10
+paddingRight 10
+paddingTop 10
+borderTopLeftRadius 10
+borderTopRightRadius 10
+borderBottomLeftRadius 10
+borderBottomRightRadius 10
+backgroundColor #00eaff
+scale 1
+shadowColor rgba(77, 77, 77, 0.3)
+shadowSpread 0
+shadowOffsetX 0
+shadowOffsetY 5
+shadowBlur 20
+rotate 0deg
+when <isClicked
+borderTopLeftRadius 70 ease
+borderTopRightRadius 70 ease
+borderBottomLeftRadius 70 ease
+borderBottomRightRadius 70 ease
+rotate -45deg spring speed 10 bounciness 20
+backgroundColor #f4502d
+Vertical
+scale 0.8
+when <isClicked
+scale 0.5 spring speed 10 bounciness 15
+PlusSvg
+stroke white

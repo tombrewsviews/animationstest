@@ -1,0 +1,8 @@
+Button Vertical
+onClick <
+backgroundColor red
+width 100
+when <isClicked
+width 150 spring
+Label Text
+text Hi

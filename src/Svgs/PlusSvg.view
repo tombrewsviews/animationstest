@@ -1,0 +1,16 @@
+PlusSvg Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+baseProfile tiny
+viewBox 0 0 100 100
+width < 100
+height < 100
+SvgPath
+fill < none
+stroke < #231F20
+strokeWidth 11
+strokeMiterlimit 10
+d M50 6v88M94 50H6
